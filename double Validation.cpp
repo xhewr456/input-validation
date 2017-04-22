@@ -44,8 +44,8 @@ double getDoubleInput()
 		{
 			cout << "invalid input, try again: ";
 			getline(cin, temp);
-			hasExtraDecimalPoints = hasExtraDecimals(temp);
 			hasAlphaChars = hasAlphaCharacters(temp);
+			hasExtraDecimalPoints = hasExtraDecimals(temp);
 		}
 	}
 
